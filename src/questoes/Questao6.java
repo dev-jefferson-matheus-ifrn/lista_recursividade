@@ -13,7 +13,7 @@ public class Questao6 {
 			return 0;
 		} else {
 
-			return (n * 2 + 10 * convertToBinary(n / 2));
+			return (n % 2 + 10 * convertToBinary(n / 2));
 		}
 
 	}
